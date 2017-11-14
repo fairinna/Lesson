@@ -1,5 +1,5 @@
 //
-//  RegistrationFirstNavigationController.swift
+//  MyPageViewController.swift
 //  fairVast
 //
 //  Created by Orchidea on 14/11/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RegistrationFirstNavigationController: UINavigationController {
+class MyPageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

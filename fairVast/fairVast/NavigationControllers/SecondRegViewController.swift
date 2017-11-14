@@ -1,5 +1,5 @@
 //
-//  FirstRegistViewController.swift
+//  SecondRegViewController.swift
 //  fairVast
 //
 //  Created by Orchidea on 14/11/2017.
@@ -8,7 +8,14 @@
 
 import UIKit
 
-class FirstRegistViewController: UINavigationController {
+class SecondRegViewController: UIViewController {
+    
+    private var fullData: [String : String] = [:]
+    
+    
+    public func getFullData (_ data : [String : String]){
+        fullData = data
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		645694921FBAEFE90056703F /* RegistrationFirstNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645694911FBAEFE90056703F /* RegistrationFirstNavigationController.swift */; };
 		645694941FBB05A90056703F /* MyNavigationControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645694931FBB05A90056703F /* MyNavigationControler.swift */; };
-		645694961FBB0FCD0056703F /* FirstRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645694951FBB0FCD0056703F /* FirstRegistViewController.swift */; };
+		645694981FBB3B9D0056703F /* FirstRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645694971FBB3B9D0056703F /* FirstRegistrationViewController.swift */; };
+		6456949A1FBB4CE90056703F /* SecondRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645694991FBB4CE90056703F /* SecondRegViewController.swift */; };
+		6456949C1FBB4D010056703F /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6456949B1FBB4D010056703F /* MyPageViewController.swift */; };
 		64A048C51F7A91C5000D7D05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A048C41F7A91C5000D7D05 /* AppDelegate.swift */; };
 		64A048C71F7A91C5000D7D05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A048C61F7A91C5000D7D05 /* ViewController.swift */; };
 		64A048CA1F7A91C5000D7D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A048C81F7A91C5000D7D05 /* Main.storyboard */; };
@@ -18,9 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		645694911FBAEFE90056703F /* RegistrationFirstNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationFirstNavigationController.swift; sourceTree = "<group>"; };
 		645694931FBB05A90056703F /* MyNavigationControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationControler.swift; sourceTree = "<group>"; };
-		645694951FBB0FCD0056703F /* FirstRegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRegistViewController.swift; sourceTree = "<group>"; };
+		645694971FBB3B9D0056703F /* FirstRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRegistrationViewController.swift; sourceTree = "<group>"; };
+		645694991FBB4CE90056703F /* SecondRegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondRegViewController.swift; sourceTree = "<group>"; };
+		6456949B1FBB4D010056703F /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		64A048C11F7A91C5000D7D05 /* fairVast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fairVast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A048C41F7A91C5000D7D05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64A048C61F7A91C5000D7D05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +46,10 @@
 		645694901FBAEF760056703F /* NavigationControllers */ = {
 			isa = PBXGroup;
 			children = (
-				645694911FBAEFE90056703F /* RegistrationFirstNavigationController.swift */,
-				645694951FBB0FCD0056703F /* FirstRegistViewController.swift */,
 				645694931FBB05A90056703F /* MyNavigationControler.swift */,
+				645694971FBB3B9D0056703F /* FirstRegistrationViewController.swift */,
+				645694991FBB4CE90056703F /* SecondRegViewController.swift */,
+				6456949B1FBB4D010056703F /* MyPageViewController.swift */,
 			);
 			path = NavigationControllers;
 			sourceTree = "<group>";
@@ -154,9 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				645694941FBB05A90056703F /* MyNavigationControler.swift in Sources */,
-				645694961FBB0FCD0056703F /* FirstRegistViewController.swift in Sources */,
-				645694921FBAEFE90056703F /* RegistrationFirstNavigationController.swift in Sources */,
+				6456949C1FBB4D010056703F /* MyPageViewController.swift in Sources */,
 				64A048C71F7A91C5000D7D05 /* ViewController.swift in Sources */,
+				6456949A1FBB4CE90056703F /* SecondRegViewController.swift in Sources */,
+				645694981FBB3B9D0056703F /* FirstRegistrationViewController.swift in Sources */,
 				64A048C51F7A91C5000D7D05 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
